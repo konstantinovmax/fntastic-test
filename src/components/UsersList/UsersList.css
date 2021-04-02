@@ -1,0 +1,110 @@
+.users-list {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.users-list__container {
+    min-height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #202225;
+    background-color: #36393f;
+}
+
+.users-list__search {
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    background-color: #202225;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #b6b6b7;
+}
+
+.users-list__search:focus {
+    box-shadow: 0 0 0.5pt 0.5pt #b6b6b7;
+}
+
+.users-list__content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.users-list__group-title {
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #b6b6b7;
+}
+
+.users-list__group {
+    border-top: 2px solid #40444b;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.users-list__user-container {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.users-list__user-container:hover {
+    opacity: 0.7;
+    transition: ease-in-out 0.2s;
+}
+
+.users-list__user-container:last-of-type {
+    margin: 0;
+}
+
+.users-list__status {
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.users-list__status_type_online {
+    background-color: #43b380;
+}
+
+.users-list__status_type_offline {
+    background-color: #ed4647;
+}
+
+.users-list__user-avatar {
+    margin: 0 10px 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.users-list__user-name {
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #b6b6b7;
+}

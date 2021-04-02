@@ -1,0 +1,52 @@
+/* header, span, div, nav, p, h1, h2, h3, h4, a, section, ul, li, img, iframe, input, textarea, button {
+  outline: 1px solid;
+  outline-color: red;
+} */
+
+.app {
+  margin: 0;
+  background-color: #202225;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #fff;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.app__content {
+  display: flex;
+  height: calc(100vh - 30px);
+  max-width: 100%;
+}
+
+.app__title {
+  margin: 5px 0 0 10px;
+  width: 60px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 20px;
+  text-align: center;
+  color: #5f5f60;
+  cursor: default;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #2e3036;
+}
+
+/* ::-webkit-scrollbar:hover {
+  cursor: col-resize;
+} */
+
+::-webkit-scrollbar-thumb {
+  background-color: #202225;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}

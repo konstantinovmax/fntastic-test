@@ -1,0 +1,7 @@
+.main {
+    width: 100%;
+    background-color: #2f3136;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+}

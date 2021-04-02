@@ -1,0 +1,135 @@
+.chatlist {
+    min-width: 10%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatlist__title-container {
+    min-height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #202225;
+    cursor: pointer;
+}
+
+.chatlist__title-container:hover {
+    opacity: 0.7;
+    transition: ease-in-out 0.2s;
+}
+
+.chatlist__title {
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #b6b6b7;
+}
+
+.chatlist__open-workspace-button {
+    background-image: url(../../images/arrow-down.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.chatlist__content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.chatlist__theme-container {
+    margin: 0 0 20px 0;
+}
+
+.chatlist__theme-container:last-of-type {
+    margin: 0;
+}
+
+.chatlist__theme-name-button {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    outline: none;
+}
+
+.chatlist__theme-name-button:hover {
+    opacity: 0.7;
+    transition: ease-in-out 0.2s;
+}
+
+.chatlist__theme-name-arrow {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+    margin: 0 10px 0 0;
+}
+
+.chatlist__theme {
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #b6b6b7;
+}
+
+.chatlist__chat-main-container {
+    display: none;
+}
+
+.chatlist__chat-main-container_is-open {
+    display: block;
+}
+
+.chatlist__chat-container {
+    margin: 5px 0 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chatlist__chat-container:last-of-type {
+    margin: 5px 0 0 0;
+}
+
+.chatlist__chat-container:hover {
+    opacity: 0.7;
+    transition: ease-in-out 0.2s;
+}
+
+.chatlist__chat-container_type_active {
+    background-color: #40444b;
+}
+
+.chatlist__chat-hash {
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 0;
+}
+
+.chatlist__chat-name {
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #b6b6b7;
+}

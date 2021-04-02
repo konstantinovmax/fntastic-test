@@ -1,0 +1,62 @@
+.workspaces {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workspaces_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workspaces__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.workspaces__link:hover {
+    opacity: 0.6;
+    transition: ease-in-out 0.2s;
+}
+
+.workspaces__link:last-of-type {
+    margin: 0;
+}
+
+.workspaces__link_type_active {
+    border: 4px solid #b6b6b7;
+}
+
+.workspaces__avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.workspaces__add-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #474a52;
+    background-image: url(../../images/plus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.workspaces__add-button:hover {
+    opacity: 0.6;
+    transition: ease-in-out 0.2s;
+}
