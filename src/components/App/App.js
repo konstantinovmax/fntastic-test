@@ -4,7 +4,7 @@ import Workspaces from '../Workspaces/Workspaces';
 import Main from '../Main/Main';
 import Popup from '../Popup/Popup';
 import AddNewPopup from '../AddNewPopup/AddNewPopup';
-import { Route, Switch, useHistory } from 'react-router';
+import { Route, Switch, useHistory, Redirect } from 'react-router';
 
 function App() {
   const [isPopupWorkspaceOpen, setIsPopupWorkspaceOpen] = React.useState(false);
@@ -59,6 +59,9 @@ function App() {
         isAdd={isNewWorkspaceAdded}
         />
         <Switch>
+          <Route exact path="/">
+            <Redirect to="/one" />
+          </Route>
           <Route path="/one">
             <Main
             onOpenWorkspacePopup={handleOpenWorkspacePopup}

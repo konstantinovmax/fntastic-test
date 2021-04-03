@@ -40,7 +40,6 @@ function Popup(props) {
                         </div>
                     </Route>
                     <Route path="/four">
-                        <img className="popup__workspace-avatar" src={avatarThree} alt="Аватар рабочего пространства"/>
                         <div className="popup__workspace-container">
                             <h2 className="popup__workspace-title">New workspace</h2>
                         </div>
