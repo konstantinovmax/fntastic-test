@@ -62,12 +62,11 @@
     align-items: center;
     margin: 0 0 20px 0;
     position: relative;
-    cursor: pointer;
 }
 
-.users-list__user-container:hover {
-    opacity: 0.7;
-    transition: ease-in-out 0.2s;
+.users-list__user-avatar_type_offline {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .users-list__user-container:last-of-type {
@@ -89,6 +88,7 @@
 
 .users-list__status_type_offline {
     background-color: #ed4647;
+    z-index: 2;
 }
 
 .users-list__user-avatar {

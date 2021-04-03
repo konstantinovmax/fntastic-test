@@ -70,7 +70,6 @@
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-    cursor: pointer;
 }
 
 .chat-main-window__text-container {
@@ -91,7 +90,6 @@
     font-weight: 900;
     line-height: 20px;
     color: #b6b6b7;
-    cursor: pointer;
 }
 
 .chat-main-window__data {
@@ -131,7 +129,7 @@
     background-color: inherit;
     border: none;
     outline: none;
-    background-color: #40444b;
+    background-color: #202225;
     resize: none;
 
     font-family: 'Inter', 'Arial', sans-serif;
@@ -149,7 +147,7 @@
     min-width: 40px;
     min-height: 40px;
     border-radius: 4px;
-    background-color: #40444b;
+    background-color: #43b380;
     border: none;
     outline: none;
     cursor: pointer;
@@ -162,4 +160,13 @@
 .chat-main-window__button:hover {
     opacity: 0.7;
     transition: ease-in-out 0.2s;
+}
+
+.chat-main-window__button_disabled {
+    background-color: #202225;
+    cursor: default;
+}
+
+.chat-main-window__button_disabled:hover {
+    opacity: 1;
 }

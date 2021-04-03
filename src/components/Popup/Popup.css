@@ -13,10 +13,6 @@
     transition: opacity 0.2s linear, visibility 0.2s linear;
 }
 
-.popup_type_workspace-info {
-
-}
-
 .popup_is-open {
     visibility: visible;
     opacity: 1;

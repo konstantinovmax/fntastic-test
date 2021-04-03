@@ -11,14 +11,10 @@ function Main(props) {
             onOpenWorkspacePopup={props.onOpenWorkspacePopup}
             onOpenFirstChatTheme={props.onOpenFirstChatTheme}
             onOpenSecondChatTheme={props.onOpenSecondChatTheme}
-            onOpenThirdChatTheme={props.onOpenThirdChatTheme}
-            onClose={props.onClose}
             isOpenFirst={props.isOpenFirst}
             isOpenSecond={props.isOpenSecond}
-            isOpenThird={props.isOpenThird}
             onCloseFirst={props.onCloseFirst}
             onCloseSecond={props.onCloseSecond}
-            onCloseThird={props.onCloseThird}
             />
             <ChatMainWindow />
             <UsersList />
