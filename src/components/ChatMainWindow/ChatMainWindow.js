@@ -15,8 +15,6 @@ import userAvatarThirteen from '../../images/user-avatar-13.png';
 import userAvatarFourteen from '../../images/iconfinder_Ninja_379471.png';
 import userAvatarFifteen from '../../images/iconfinder_ninja-background_479477.png';
 import userAvatarSixteen from '../../images/iconfinder_smile-ninja_110625.png';
-import userAvatarSeventeen from '../../images/iconfinder_JD-25_2625484.png';
-
 
 function ChatMainWindow() {
     const [isMessageData, setIsMessageData] = React.useState('')

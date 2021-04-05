@@ -1,5 +1,4 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import './Workspaces.css';
 import avatarOne from '../../images/iconfinder_ninja_479478.svg';
